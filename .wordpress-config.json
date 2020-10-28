@@ -1,0 +1,22 @@
+{
+  "baseUrl": "imgupta.wordpress.com",
+  "auth": {
+    "wpcom_app_clientId": "69584",
+    "wpcom_app_clientSecret": "eKHm71EgBDBy0pqh6Pxux8o4dw6nB0I6lh9FyE4i65yI5RUN1vUCgy1t37AyZRd6",
+    "wpcom_user": "sunwebmedia@gmail.com",
+    "wpcom_pass": "irspiljtdj2ta4jv"
+  },
+  "protocol": "https",
+  "hostingWPCOM": true,
+  "useACF": true,
+  "includedRoutes": [
+    "**/categories",
+    "**/posts",
+    "**/pages",
+    "**/media",
+    "**/tags",
+    "**/taxonomies",
+    "**/users",
+    "**/settings"
+  ]
+}

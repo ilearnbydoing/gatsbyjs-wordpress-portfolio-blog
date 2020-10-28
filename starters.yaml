@@ -1,0 +1,26 @@
+- url: https://wp-balsa-preview.draftbox.co
+  repo: https://github.com/draftbox-co/gatsby-wordpress-balsa-starter
+  description: A Gatsby starter for creating blogs from headless WordPress CMS.
+  tags:
+    - AMP
+    - Blog
+    - CMS:Headless
+    - CMS:WordPress
+    - Disqus
+    - Language:TypeScript
+    - Netlify
+    - Pagination
+    - PWA
+    - RSS
+    - SEO
+    - Styling:Tailwind
+  features:
+    - Balsa Skin by Draftbox
+    - Data sourcing from headless WordPress
+    - Responsive design
+    - SEO optimized
+    - OpenGraph structured data
+    - Twitter Cards meta
+    - Sitemap Generation
+    - XML Sitemaps
+    - Progressive Web App
