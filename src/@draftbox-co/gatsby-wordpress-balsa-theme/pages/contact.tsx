@@ -15,16 +15,16 @@ export default function Contact(){
 <input type="hidden" name="form-name" value="contact" />
       <div className="flex flex-wrap -m-2">
         <div className="p-2 w-1/2">
-          <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Name" type="text" />
+          <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Name" type="text" name="name" />
         </div>
         <div className="p-2 w-1/2">
-          <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email" />
+          <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email" name="email" />
         </div>
         <div className="p-2 w-full">
-          <textarea className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
+          <textarea className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message" name="message"></textarea>
         </div>
         <div className="p-2 w-full">
-          <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+          <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
           <a className="text-indigo-500">example@email.com</a>

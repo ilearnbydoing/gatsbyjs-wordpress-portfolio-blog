@@ -53,7 +53,7 @@ gatsbyPlugins.push({
         develop: true, // Enable while using `gatsby develop`
         tailwind: true, // Enable tailwindcss support
         ignore: ["/ignored.css", "prismjs/", "docsearch.js/"],
-        purgeOnly: ["components/", "styles/", "templates/"],
+        purgeOnly: ["components/", "styles/", "templates/", "pages"],
         // content: [path.join(__dirname, "src/**/!(*.d).{ts,js,jsx,tsx}")],
         content: [
             path.join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx}'),
