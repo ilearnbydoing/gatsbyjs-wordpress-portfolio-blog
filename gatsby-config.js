@@ -1,4 +1,5 @@
 // loading env
+const path = require(`path`);
 const activeEnv = process.env.NODE_ENV || 'development'
 console.log(`Using environment config: '${activeEnv}'`)
 require("dotenv").config({
@@ -36,13 +37,30 @@ console.log(wordpressConfig);
 let gatsbyPlugins = [
   {
     resolve: `@draftbox-co/gatsby-wordpress-balsa-theme`,
+        // resolve: `./src/@draftbox-co/gatsby-wordpress-balsa-theme/gatsbyjs-config.js1`,
+        // resolve: require.resolve(`./src/plugins/my-plugin`),
+    // resolve: require(`./src/@draftbox-co/gatsby-wordpress-balsa-theme/gatsbyjs-config/configOptions`),
     options: {
       wordpressConfig,
       siteConfig: siteConfig,
     },
   },
 ];
-
+gatsbyPlugins.push({
+    resolve: `gatsby-plugin-purgecss`,
+    options: {
+        printRejected: true, // Print removed selectors and processed file names
+        develop: true, // Enable while using `gatsby develop`
+        tailwind: true, // Enable tailwindcss support
+        ignore: ["/ignored.css", "prismjs/", "docsearch.js/"],
+        purgeOnly: ["components/", "styles/", "templates/"],
+        // content: [path.join(__dirname, "src/**/!(*.d).{ts,js,jsx,tsx}")],
+        content: [
+            path.join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx}'),
+            path.join(process.cwd(), 'node_modules/@draftbox-co/gatsby-wordpress-balsa-theme/src/**/!(*.d).{ts,js,jsx,tsx}')
+            ],
+    },
+});
 if (process.env.SEGMENT_KEY) {
   gatsbyPlugins.push({
     resolve: `gatsby-plugin-segment-js`,

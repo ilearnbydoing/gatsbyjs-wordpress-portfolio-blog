@@ -1,7 +1,7 @@
 import React from "react";
 import "@draftbox-co/gatsby-wordpress-balsa-theme/src/styles/style.css";
 import "@draftbox-co/gatsby-wordpress-balsa-theme/src/styles/prism.css";
-import Navbar from "@draftbox-co/gatsby-wordpress-balsa-theme/src/Navbar";
+// import Navbar from "@draftbox-co/gatsby-wordpress-balsa-theme/src/Navbar";
 import Footer from "./Footer";
 import { ArmadaFormsProvider } from "@draftbox-co/gatsby-wordpress-balsa-theme/src/context/form-context";
 import { useStaticQuery, graphql } from "gatsby";
@@ -52,11 +52,8 @@ const Layout: React.FC = ({ children }) => {
   `);
 
   return (
-    // <ArmadaFormsProvider client={process.env.GATSBY_FORM_URL}>
-      <div>
+      <>
       <Helmet htmlAttributes={{ lang: data.site.siteMetadata.language }} />
-      <div>
-              {/* <Navbar navbarData={data} /> */}
               <div className="relative z-20 w-full h-24 px-8 pt-2 bg-white">
 
 <div className="container flex items-center justify-between h-full max-w-6xl mx-auto">
@@ -89,10 +86,8 @@ const Layout: React.FC = ({ children }) => {
         <hr />
         {children}
         <Footer footerData={data} />
-      </div>
-              {/* </ArmadaFormsProvider> */}
+      </>
               
-          </div>
 
   );
 };
