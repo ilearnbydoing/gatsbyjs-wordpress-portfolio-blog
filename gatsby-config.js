@@ -38,7 +38,7 @@ let gatsbyPlugins = [
   {
     resolve: `@draftbox-co/gatsby-wordpress-balsa-theme`,
         // resolve: `./src/@draftbox-co/gatsby-wordpress-balsa-theme/gatsbyjs-config.js1`,
-        // resolve: require.resolve(`./src/plugins/my-plugin`),
+        // resolve: require.resolve(`src/@draftbox-co/gatsby-wordpress-balsa-theme`),
     // resolve: require(`./src/@draftbox-co/gatsby-wordpress-balsa-theme/gatsbyjs-config/configOptions`),
     options: {
       wordpressConfig,
