@@ -66,7 +66,7 @@ const Layout: React.FC = ({ children }) => {
         <nav className="flex flex-col items-center py-3 bg-white border border-gray-100 sm:flex-row sm:bg-transparent sm:border-none sm:py-0">
             <a href="/" className="relative px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Home<span className="absolute bottom-0 left-0 w-full h-1 -mb-2 bg-yellow-300 rounded-full"></span></a>
             {/* <a href="#_" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Pages</a> */}
-            {/* <a href="/blog" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Blog</a> */}
+            <a href="/blog" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Blog</a>
             {/* <a href="#_" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">About</a> */}
             <a href="/contact" className="relative mb-5 sm:mb-0">
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-black rounded"></span>

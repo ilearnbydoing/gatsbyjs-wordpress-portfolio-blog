@@ -1,13 +1,13 @@
 import React from "react";
-import Layout from "./../components/Layout";
-export default function Contact(){
+import Layout from "../components/Layout";
+export default function About(){
     return (
       <Layout>
 <section className="text-gray-700 body-font relative">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Please submit your enquiry and I will get back to you as soon as possible</p>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
     </div>
                     <div className="lg:w-1/2 md:w-2/3 mx-auto">
                     <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
@@ -19,9 +19,6 @@ export default function Contact(){
         </div>
         <div className="p-2 w-1/2">
           <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email" name="email" />
-                  </div>
-                  <div className="p-2 w-full">
-          <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Phone" type="text" name="phone" />
         </div>
         <div className="p-2 w-full">
           <textarea className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message" name="message"></textarea>
@@ -30,10 +27,10 @@ export default function Contact(){
           <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          {/* <a className="text-indigo-500">example@email.com</a>
+          <a className="text-indigo-500">example@email.com</a>
           <p className="leading-normal my-5">49 Smith St.
             <br />Saint Cloud, MN 56301
-          </p> */}
+          </p>
           <span className="inline-flex">
             <a className="text-gray-500">
               <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
