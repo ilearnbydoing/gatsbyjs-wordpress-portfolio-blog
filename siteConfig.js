@@ -1,5 +1,5 @@
 module.exports ={
-  "siteUrl": "https://my-blog-230a.netlify.app",
+  "siteUrl": "https://durgeshgupta.com",
   "postsPerPage": 9,
   "siteTitleMeta": "Durgesh Gupta - Full Stack Web Developer",
   "siteDescriptionMeta": "Freelance web designer, web developer and marketer based in Ambarnath, Thane, Maharashtra",
@@ -9,7 +9,7 @@ module.exports ={
   "siteIcon": "favicon.png",
   "backgroundColor": "#e9e9e9",
   "themeColor": "#15171A",
-  "apiUrl": "https://wordpress.theasdfghjkl.com",
+  "apiUrl": "https://imgupta.wordpress.com",
   "subscribeWidget": {
     "visible": true,
     "title": "Subscribe to My Blog",
@@ -20,11 +20,11 @@ module.exports ={
     "navigation": [
       {
         "label": "Home",
-        "url": "https://my-blog-230a.netlify.app/"
+        "url": "https://durgeshgupta.com/"
       },
       {
         "label": "Contact",
-        "url": "https://my-blog-230a.netlify.app/contact"
+        "url": "https://durgeshgupta.com/contact"
       }
     ]
   },
@@ -33,19 +33,19 @@ module.exports ={
     "navigation": [
       {
         "label": "Home",
-        "url": "https://my-blog-230a.netlify.app/"
+        "url": "https://durgeshgupta.com/"
       },
       {
         "label": "Sitemap",
-        "url": "https://my-blog-230a.netlify.app/sitemap.xml"
+        "url": "https://durgeshgupta.com/sitemap.xml"
       },
       {
         "label": "RSS",
-        "url": "https://my-blog-230a.netlify.app/rss.xml"
+        "url": "https://durgeshgupta.com/rss.xml"
       },
       {
         "label": "Contact",
-        "url": "https://my-blog-230a.netlify.app/contact"
+        "url": "https://durgeshgupta.com/contact"
       }
     ]
   },
