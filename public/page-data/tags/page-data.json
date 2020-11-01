@@ -1,1 +1,1 @@
-{"componentChunkName":"component---node-modules-draftbox-co-gatsby-wordpress-balsa-theme-src-pages-tags-tsx","path":"/tags/","result":{"data":{"allWordpressTag":{"edges":[]}},"pageContext":{}}}
+{"componentChunkName":"component---node-modules-draftbox-co-gatsby-wordpress-balsa-theme-src-pages-tags-tsx","path":"/tags/","result":{"data":{"allWordpressTag":{"edges":[{"node":{"name":"draftbox","slug":"draftbox","count":1}},{"node":{"name":"headless","slug":"headless","count":1}}]}},"pageContext":{}}}
