@@ -1,11 +1,11 @@
 module.exports ={
   "siteUrl": "https://my-blog-230a.netlify.app",
   "postsPerPage": 9,
-  "siteTitleMeta": "My Blog",
-  "siteDescriptionMeta": "My Life My Journey",
+  "siteTitleMeta": "Durgesh Gupta - Full Stack Web Developer",
+  "siteDescriptionMeta": "Freelance web designer, web developer and marketer based in Ambarnath, Thane, Maharashtra",
   "shareImageWidth": 1000,
   "shareImageHeight": 523,
-  "shortTitle": "My Blog",
+  "shortTitle": "Durgesh Gupta",
   "siteIcon": "favicon.png",
   "backgroundColor": "#e9e9e9",
   "themeColor": "#15171A",
@@ -29,7 +29,7 @@ module.exports ={
     ]
   },
   "footer": {
-    "copyright": "My Blog",
+    "copyright": "DurgeshGupta.com",
     "navigation": [
       {
         "label": "Home",
@@ -63,29 +63,29 @@ module.exports ={
     "externalLink": ""
   },
   "contactWidget": {
-    "title": "Contact My Blog",
+    "title": "Contact Durgesh Gupta",
     "successMessage": "We'll get in touch with you soon."
   },
   "metadata": {
-    "title": "My Blog",
-    "description": "My Life My Journey"
+    "title": "Durgesh Gupta - Full Stack Web Developer",
+    "description": "Freelance web designer, web developer and marketer based in Ambarnath, Thane, Maharashtra"
   },
   "twitterCard": {
-    "title": "My Blog",
-    "description": "My Life My Journey",
+    "title": "Contact Durgesh Gupta",
+    "description": "Freelance web designer, web developer and marketer based in Ambarnath, Thane, Maharashtra",
     "imageUrl": "",
     "username": ""
   },
   "facebookCard": {
-    "title": "My Blog",
-    "description": "My Life My Journey",
+    "title": "Contact Durgesh Gupta",
+    "description": "Freelance web designer, web developer and marketer based in Ambarnath, Thane, Maharashtra",
     "imageUrl": "",
     "appId": "",
     "width": 1000,
     "height": 523
   },
-  "siteTitle": "My Blog",
-  "siteDescription": "My Life My Journey",
+  "siteTitle": "Contact Durgesh Gupta",
+  "siteDescription": "Freelance web designer, web developer and marketer based in Ambarnath, Thane, Maharashtra",
   "language": "en-US",
   "logoUrl": "",
   "iconUrl": "",

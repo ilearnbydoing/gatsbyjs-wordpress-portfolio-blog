@@ -10,6 +10,7 @@ import url from "url";
 import Hero from "../components/Hero";
 import classNames from "classnames";
 import CtaMini from "@draftbox-co/gatsby-wordpress-balsa-theme/src/components/CtaMini";
+import Header from "../components/Header";
 
 type IndexPageProps = {
   data: {
@@ -53,6 +54,7 @@ const IndexPage: React.FC<IndexPageProps> = ({
       <Layout>
         <WebsiteMeta />
         <Hero />
+        <Header headerText="Latest From Blog" />
         <div className="spacer my-8"></div>
         <section className="px-4 container mx-auto">
           <div className="flex justify-center flex-wrap -mx-4">
