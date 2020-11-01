@@ -6366,6 +6366,11 @@ gatsby-plugin-disqus@^1.1.4:
     babel-preset-gatsby-package "^0.1.2"
     cross-env "^5.2.0"
 
+gatsby-plugin-facebook-pixel@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-facebook-pixel/-/gatsby-plugin-facebook-pixel-1.0.5.tgz#521e52db23a75fa27a55d03d23917cb3edb3391d"
+  integrity sha512-EFozZ47iskV1zIfNz7XGYGYhh0Mhfi9S1rswbRPefnc0s/NhQqVa45Ky82eM2M8yxiICS3BAmI1rS5dFDDNT7Q==
+
 gatsby-plugin-feed@^2.3.27:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.5.2.tgz#eee24ef59c39d24a1f7dd94bed4f463fd4823538"

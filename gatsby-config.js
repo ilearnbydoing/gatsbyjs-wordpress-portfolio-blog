@@ -83,6 +83,15 @@ if (process.env.GA) {
     },
   });
 }
+// Added support for FB pixel
+if (process.env.FB_PIXEL) {
+  gatsbyPlugins.unshift({
+    resolve: `gatsby-plugin-facebook-pixel`,
+    options: {
+      pixelId: process.env.FB_PIXEL,
+    },
+  });
+}
 
 if (process.env.GATSBY_MIXPANEL_TOKEN) {
   gatsbyPlugins.push({
