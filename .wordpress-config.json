@@ -12,6 +12,7 @@
   "includedRoutes": [
     "**/categories",
     "**/posts",
+    "**/jetpack-portfolio",
     "**/pages",
     "**/media",
     "**/tags",

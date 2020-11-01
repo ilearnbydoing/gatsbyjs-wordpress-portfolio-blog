@@ -8,6 +8,7 @@ import Pagination from "@draftbox-co/gatsby-wordpress-balsa-theme/src/components
 import WebsiteMeta from "@draftbox-co/gatsby-wordpress-balsa-theme/src/components/meta/website-meta";
 import url from "url";
 import Hero from "../components/Hero";
+import Testimonial from "../components/Testimonials";
 import classNames from "classnames";
 import CtaMini from "@draftbox-co/gatsby-wordpress-balsa-theme/src/components/CtaMini";
 import Header from "../components/Header";
@@ -66,6 +67,7 @@ const IndexPage: React.FC<IndexPageProps> = ({
 
         {/* Pagination */}
         <Pagination pageContext={pageContext} />
+        <Testimonial />
         <CtaMini />
       </Layout>
     </>
