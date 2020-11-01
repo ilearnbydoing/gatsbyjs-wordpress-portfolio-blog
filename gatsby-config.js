@@ -46,11 +46,12 @@ let gatsbyPlugins = [
     },
   },
 ];
+
 gatsbyPlugins.push({
     resolve: `gatsby-plugin-purgecss`,
     options: {
         printRejected: true, // Print removed selectors and processed file names
-        develop: false, // Enable while using `gatsby develop`
+        develop: true, // Enable while using `gatsby develop`
         tailwind: true, // Enable tailwindcss support
         ignore: ["/ignored.css", "prismjs/", "docsearch.js/"],
         purgeOnly: ["components/", "styles/", "templates/", "pages"],
@@ -61,6 +62,7 @@ gatsbyPlugins.push({
             ],
     },
 });
+
 if (process.env.SEGMENT_KEY) {
   gatsbyPlugins.push({
     resolve: `gatsby-plugin-segment-js`,
@@ -83,9 +85,9 @@ if (process.env.GA) {
     },
   });
 }
-// Added support for FB pixel
+
 if (process.env.FB_PIXEL) {
-  gatsbyPlugins.unshift({
+  gatsbyPlugins.push({
     resolve: `gatsby-plugin-facebook-pixel`,
     options: {
       pixelId: process.env.FB_PIXEL,
