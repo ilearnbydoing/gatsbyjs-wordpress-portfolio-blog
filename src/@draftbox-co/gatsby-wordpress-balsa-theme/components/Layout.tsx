@@ -67,7 +67,7 @@ const Layout: React.FC = ({ children }) => {
             <a href="/" className="relative px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Home<span className="absolute bottom-0 left-0 w-full h-1 -mb-2 bg-yellow-300 rounded-full"></span></a>
             {/* <a href="#_" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Pages</a> */}
             <a href="/blog" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Blog</a>
-            <a href="/https://webanaya.com/projects" target="_blank" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Projects</a>
+            <a href="https://webanaya.com/projects" target="_blank" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Projects</a>
             <a href="/contact" className="relative mb-5 sm:mb-0">
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-black rounded"></span>
                 <span className="relative inline-block w-full h-full px-3 py-1 text-base font-bold transition duration-100 bg-white border-2 border-black rounded fold-bold hover:bg-yellow-400 hover:text-gray-900">CONTACT</span>
