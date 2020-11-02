@@ -36,7 +36,8 @@ console.log(wordpressConfig);
 
 let gatsbyPlugins = [
   {
-    resolve: `@draftbox-co/gatsby-wordpress-balsa-theme`,
+    resolve: `@ilearnbydoing/gatsby-wordpress-deva-theme`,
+    // resolve: `@draftbox-co/gatsby-wordpress-balsa-theme`,
         // resolve: `./src/@draftbox-co/gatsby-wordpress-balsa-theme/gatsbyjs-config.js1`,
         // resolve: require.resolve(`src/@draftbox-co/gatsby-wordpress-balsa-theme`),
     // resolve: require(`./src/@draftbox-co/gatsby-wordpress-balsa-theme/gatsbyjs-config/configOptions`),
@@ -51,14 +52,14 @@ gatsbyPlugins.push({
     resolve: `gatsby-plugin-purgecss`,
     options: {
         printRejected: true, // Print removed selectors and processed file names
-        develop: true, // Enable while using `gatsby develop`
+        //develop: true, // Enable while using `gatsby develop`
         tailwind: true, // Enable tailwindcss support
         ignore: ["/ignored.css", "prismjs/", "docsearch.js/"],
         purgeOnly: ["components/", "styles/", "templates/", "pages"],
         // content: [path.join(__dirname, "src/**/!(*.d).{ts,js,jsx,tsx}")],
         content: [
             path.join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx}'),
-            path.join(process.cwd(), 'node_modules/@draftbox-co/gatsby-wordpress-balsa-theme/src/**/!(*.d).{ts,js,jsx,tsx}')
+            path.join(process.cwd(), 'node_modules/@ilearnbydoing/gatsby-wordpress-deva-theme/src/**/!(*.d).{ts,js,jsx,tsx}')
             ],
     },
 });
