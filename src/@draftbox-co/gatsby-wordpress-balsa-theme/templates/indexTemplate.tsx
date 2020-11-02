@@ -12,6 +12,7 @@ import Testimonial2 from "../components/Testimonials2";
 import classNames from "classnames";
 import CtaMini from "@draftbox-co/gatsby-wordpress-balsa-theme/src/components/CtaMini";
 import Header from "../components/Header";
+import FeaturedProjects from "../components/FeaturedProjects";
 
 type IndexPageProps = {
   data: {
@@ -55,6 +56,8 @@ const IndexPage: React.FC<IndexPageProps> = ({
       <Layout>
         <WebsiteMeta />
         <Hero />
+        <Header headerText="Featured Projects" />
+        <FeaturedProjects />
         <Header headerText="Latest From Blog" />
         <div className="spacer my-8"></div>
         <section className="px-4 container mx-auto">
