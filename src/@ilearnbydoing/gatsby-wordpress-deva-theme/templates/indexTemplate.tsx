@@ -57,7 +57,7 @@ const IndexPage: React.FC<IndexPageProps> = ({
         <WebsiteMeta />
         <Hero />
         <Header headerText="Featured Projects" />
-        <FeaturedProjects />
+        {/* <FeaturedProjects /> */}
         <Header headerText="Latest From Blog" />
         <div className="spacer my-8"></div>
         <section className="px-4 container mx-auto">
