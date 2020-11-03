@@ -56,13 +56,8 @@ const IndexPage: React.FC<IndexPageProps> = ({
       <Layout>
         <WebsiteMeta />
         <Hero />
-<<<<<<< HEAD:src/@draftbox-co/gatsby-wordpress-balsa-theme/templates/indexTemplate.tsx
-        <Header headerText="Featured Projects" />
-        <FeaturedProjects />
-=======
        {/* <Header headerText="Featured Projects" />
          <FeaturedProjects /> */}
->>>>>>> b3428c7ea35dfdcf7dee25f37796205745d85708:src/@ilearnbydoing/gatsby-wordpress-deva-theme/templates/indexTemplate.tsx
         <Header headerText="Latest From Blog" />
         <div className="spacer my-8"></div>
         <section className="px-4 container mx-auto">
