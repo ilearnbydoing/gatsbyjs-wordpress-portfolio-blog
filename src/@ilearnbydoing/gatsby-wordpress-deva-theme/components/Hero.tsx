@@ -5,7 +5,7 @@ export default function Hero() {
         {/* <!-- BEGIN HERO SECTION --> */}
 <div className="relative items-center justify-center w-full w-screen h-screen">
 
-<div className="container flex flex-col items-center justify-center h-full max-w-6xl pl-0 mx-auto -mt-24 sm:pl-8 xl:pl-0 md:flex-row md:justify-between">
+<div className="container flex flex-col items-center justify-center h-full max-w-6xl pl-0 mx-auto -mt-20 sm:pl-8 xl:pl-0 md:flex-row md:justify-between">
 
     <div className="flex flex-col items-center w-5/6 md:items-start sm:w-1/2 lg:w-3/8 lg:mt-10">
         <div className="relative">
@@ -23,8 +23,18 @@ export default function Hero() {
         <p className="my-3 text-base text-center text-gray-600 xl:text-xl md:text-left">I design websites build web and mobile apps and promote them online, I have been doing this since last 15 years and creating values for my clients.</p>
         <a href="/contact" className="relative mt-5">
             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-black rounded"></span>
-            <span className="relative inline-block w-full h-full px-8 py-3 text-base font-bold bg-white border-2 border-black rounded hover:bg-yellow-400 xl:text-xl fold-bold">Let's Talk</span>
-        </a>
+            <span className="relative inline-block w-full h-full px-8 py-3 text-base font-bold bg-white border-2 border-black rounded hover:bg-yellow-400 xl:text-xl fold-bold">Let's Talk
+          </span>
+                        </a>
+                        <div className="flex-col mt-5 sm:flex lg:mt-5">
+                        <p className="mb-4 text-sm font-medium tracking-widest text-gray-800 text-center">Or Whatsapp/Call</p>
+                            <div className="flex">
+<a href="https://wa.me/919910099645"><svg className="h-8 text-gray-500 duration-150 cursor-pointer fill-current transition-color hover:text-gray-600" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><linearGradient id="A" gradientUnits="userSpaceOnUse" x1="-438.975" y1="-277.674" x2="-438.975" y2="-273.252"><stop offset="0" stop-color="#6ebf61"/><stop offset=".231" stop-color="#50a557"/><stop offset=".522" stop-color="#2a904f"/><stop offset=".812" stop-color="#50a557"/><stop offset="1" stop-color="#6ebf63"/></linearGradient><path d="M16 31.99a15.97 15.97 0 0 1-8.799-2.641l-6.148 1.964 1.993-5.94A15.87 15.87 0 0 1 0 16C0 7.182 7.173.01 15.99.01S31.98 7.182 31.98 16 24.81 31.99 15.99 31.99H16z" fill="#fefefe"/><path d="M74.34-75.742c-33.236 0-60.27 27.035-60.27 60.27 0 13.18 4.252 25.405 11.48 35.327L18.037 42.25 41.2 34.845c9.53 6.307 20.905 9.956 33.165 9.956 33.236 0 60.27-27.036 60.27-60.27s-27.035-60.27-60.27-60.27h-.035z" fill="url(#A)" transform="matrix(.265314 0 0 .265314 -3.723411 20.104532)"/><path d="M11.535 8.132c-.3-.743-.545-.77-1.015-.8l-.536-.02c-.61 0-1.25.18-1.636.573-.47.48-1.636 1.598-1.636 3.892s1.673 4.512 1.9 4.823c.235.3 3.262 5.086 7.963 7.032 3.676 1.523 4.766 1.382 5.603 1.203 1.222-.263 2.754-1.166 3.14-2.256s.386-2.02.272-2.22-.423-.3-.893-.545-2.754-1.363-3.187-1.514c-.423-.16-.827-.103-1.147.348-.45.63-.893 1.27-1.25 1.654-.282.3-.743.34-1.128.18-.517-.216-1.965-.724-3.75-2.313-1.382-1.23-2.322-2.764-2.595-3.224-.273-.47-.028-.743.188-.997.235-.292.46-.498.696-.77s.367-.414.517-.733c.16-.3.047-.63-.066-.865s-1.053-2.53-1.438-3.46z" fill="#fefefe"/></svg></a>
+<a href="tel:+919910099645" className="font-medium text-2xl text-green-600 flex hover:text-yellow-600"> +91-99100-99645
+                   </a>
+                    </div>
+                </div>
+                        
     </div>
 
     <div className="flex flex-col items-end justify-center w-5/6 h-auto pl-0 pr-0 mt-10 sm:pl-20 sm:pr-8 xl:pr-0 md:mt-0 md:h-full sm:w-2/3">
