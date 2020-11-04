@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useState } from "react"
 import "@ilearnbydoing/gatsby-wordpress-deva-theme/src/styles/style.css";
 import "@ilearnbydoing/gatsby-wordpress-deva-theme/src/styles/prism.css";
+// import "../styles/style.css";
 // import Navbar from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/Navbar";
 import Footer from "./Footer";
 import { ArmadaFormsProvider } from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/context/form-context";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import { SettingsAndSlugs } from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/models/settings-and-page-slugs.model";
 import Helmet from "react-helmet";
 
 const Layout: React.FC = ({ children }) => {
   // client test = https://drafbox-backend-dev.herokuapp.com/api/project/5ea1575f8c9344001f9a89ff/forms
-
+  const [isExpanded, toggleExpansion] = useState(false)
   const data = useStaticQuery<SettingsAndSlugs>(graphql`
     query {
       site {
@@ -62,7 +63,7 @@ const Layout: React.FC = ({ children }) => {
         <span className="ml-3 text-2xl font-black">DurgeshGupta</span>
     </a>
 
-    <div id="nav" className="absolute top-0 left-0 hidden block w-full mt-20 border-b border-gray-200 sm:border-none sm:px-5 sm:block sm:relative sm:mt-0 sm:px-0 sm:w-auto">
+    <div id="nav" className={`${ isExpanded ? `block` : `hidden` } absolute top-0 left-0 block w-full mt-20 border-b border-gray-200 sm:border-none sm:px-5 sm:block sm:relative sm:mt-0 sm:px-0 sm:w-auto`}>
         <nav className="flex flex-col items-center py-3 bg-white border border-gray-100 sm:flex-row sm:bg-transparent sm:border-none sm:py-0">
             <a href="/" className="relative px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Home<span className="absolute bottom-0 left-0 w-full h-1 -mb-2 bg-yellow-300 rounded-full"></span></a>
             {/* <a href="#_" className="px-1 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Pages</a> */}
@@ -75,11 +76,12 @@ const Layout: React.FC = ({ children }) => {
             </a>
         </nav>
     </div>
-
-    <div id="nav-mobile-btn" className="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none sm:hidden sm:mt-10">
+    <button onClick={() => toggleExpansion(!isExpanded)}>
+            <div id="nav-mobile-btn" className={`${isExpanded ? `close` : ``} absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none sm:hidden sm:mt-10`}>
         <span className="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
         <span className="block w-full h-1 mt-1 duration-200 transform bg-gray-800 rounded-full"></span>
-    </div>
+            </div>
+            </button>
 </div>
 </div>
 

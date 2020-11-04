@@ -83,11 +83,10 @@ const IndexPage: React.FC<IndexPageProps> = ({
 export default IndexPage;
 
 export const pageQuery = graphql`
-  query wordpressQueryAndWordpressQuery($skip: Int!, $limit: Int!) {
+  query {
     allWordpressPost(
       sort: { fields: [sticky, date], order: [DESC, DESC] }
-      skip: $skip
-      limit: $limit
+      limit: 3
     ) {
       edges {
         node {
