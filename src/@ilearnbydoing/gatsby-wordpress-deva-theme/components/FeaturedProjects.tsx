@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 // import ProjectData from "../data/sites.yaml"
-import ProjectCard from "../components/projectCard"
+import ProjectCard from "../components/ProjectCard"
 
 export default function featuredProject() {
     const data = useStaticQuery(
