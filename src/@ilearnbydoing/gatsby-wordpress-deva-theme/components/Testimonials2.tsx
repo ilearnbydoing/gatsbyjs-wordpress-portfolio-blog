@@ -3,7 +3,7 @@ import TestimonialCard2 from "../components/TestimonialCard2"
 
 export default function Testimonials2() {
     return (
-        <div id="testimonials" className="flex items-center justify-center w-full px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
+        <div id="testimonials" className="flex items-center justify-center w-full px-8 py-10 border-t border-gray-200 md:py-12 lg:py-12 xl:py-12 xl:px-0">
         <div className="max-w-6xl mx-auto">
             <div className="flex-col items-center ">
                 <div className="flex flex-col items-center justify-center w-full h-full max-w-2xl pr-8 mx-auto text-center">

@@ -29,6 +29,10 @@
     "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-mixpanel": "^3.1.6",
     "gatsby-plugin-segment-js": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.7.1",
+    "gatsby-transformer-screenshot": "^2.3.21",
+    "gatsby-transformer-sharp": "^2.5.21",
+    "gatsby-transformer-yaml": "^2.4.15",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-facebook": "^8.1.4"

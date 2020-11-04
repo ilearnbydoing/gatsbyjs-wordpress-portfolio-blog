@@ -47,7 +47,31 @@ let gatsbyPlugins = [
     },
   },
 ];
+// 
+gatsbyPlugins.push(
+  "gatsby-plugin-sharp",
+  "gatsby-transformer-yaml",
+);
+// file system data
+gatsbyPlugins.push(
+  "gatsby-transformer-yaml",
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/src/@ilearnbydoing/gatsby-wordpress-deva-theme/data/`,
+      name: `data`,
+    },
+  },
+);
+// push gatsby-transformer-screenshot
 
+gatsbyPlugins.push({
+  resolve: `gatsby-transformer-screenshot`,
+  options: {
+    nodeTypes: [`SitesYaml`],
+  },
+});
+  
 gatsbyPlugins.push({
     resolve: `gatsby-plugin-purgecss`,
     options: {
