@@ -6,7 +6,7 @@ import ProjectCard from "../components/ProjectCard"
 export default function featuredProject() {
     const data = useStaticQuery(
         graphql`{
-            allSitesYaml {
+          allSitesYaml(limit: 3, filter: {featured: {eq: 1}}) {
               edges {
                 node {
                   url

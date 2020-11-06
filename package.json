@@ -19,7 +19,7 @@
     "@draftbox-co/gatsby-plugin-hotjar-lazy": "^0.0.1",
     "@draftbox-co/gatsby-plugin-olark-lazy": "^0.0.1",
     "@draftbox-co/gatsby-plugin-tawk-lazy": "^0.0.1",
-    "@ilearnbydoing/gatsby-wordpress-deva-theme": "^1.0.40",
+    "@ilearnbydoing/gatsby-wordpress-deva-theme": "^1.0.41",
     "dotenv": "^8.2.0",
     "gatsby": "2.20.24",
     "gatsby-plugin-disqus": "^1.1.4",

@@ -1,15 +1,24 @@
+- url: https://www.byrocreations.com/
+  title: Byrocreations
+  name: Byrocreations
+  date: 01-02-2020
+  excerpt: Byrocreations is a corporate web agency website
+  featured: 0
 - url: https://www.webanaya.com/
   title: WebAnaya
   name: WebAnaya
   date: 01-02-2020
   excerpt: WebAnaya.com is a corporate web agency website
+  featured: 1
 - url: https://www.durgeshgupta.com/
   title: WebAnaya
   name: WebAnaya
   date: 01-02-2020
   excerpt: WebAnaya.com is a corporate web agency website
+  featured: 1
 - url: https://prettycollection.co.in/
   title: Pretty Collection
   name: WebAnaya
   date: 01-02-2020
   excerpt: WebAnaya.com is a corporate web agency website
+  featured: 1

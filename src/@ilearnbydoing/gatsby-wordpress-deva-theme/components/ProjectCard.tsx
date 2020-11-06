@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
         <div className="flex flex-col overflow-hidden transition duration-500 ease-in-out transform bg-white rounded-lg shadow-2xl hover:scale-105">
             {/* <img className="h-56 rounded-t-lg" alt="article image"
                     src={props.projectImage} /> */}
-                             <a href={props.projectUrl} target="_blank"
+                             <a href={props.projectUrl} target="_blank" rel="nofollow"
                     className=""><Img className="h-56 rounded-t-lg" alt="article image"
               resolutions={props.projectResolution}
               alt={props.projectTitle}

@@ -1088,10 +1088,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ilearnbydoing/gatsby-wordpress-deva-theme@^1.0.40":
-  version "1.0.40"
-  resolved "https://registry.yarnpkg.com/@ilearnbydoing/gatsby-wordpress-deva-theme/-/gatsby-wordpress-deva-theme-1.0.40.tgz#3694c5d11159b95f4c3ab634a7c91645f9873eef"
-  integrity sha512-yLdmrTI3m7s+2FTRKEX+cpAP8a3vFi+FqhmEJ/lB4actU515JckrWK+vxxW2/ivFoGtyz1po2hqtj9ZOr7zQvA==
+"@ilearnbydoing/gatsby-wordpress-deva-theme@^1.0.41":
+  version "1.0.41"
+  resolved "https://registry.yarnpkg.com/@ilearnbydoing/gatsby-wordpress-deva-theme/-/gatsby-wordpress-deva-theme-1.0.41.tgz#eced024ff150f1be31497558c9bdc66dfedd8a23"
+  integrity sha512-bwx2zMhWb+g7cL7LqIB73yk1ZMEmKPKy/mCS/THyeRZdhzHJJw3YlaUXWI69INISjoH4vl+ERR6VrX8grhP2Kw==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.6"
     "@draftbox-co/gatsby-plugin-css-variables" "^0.0.3"
