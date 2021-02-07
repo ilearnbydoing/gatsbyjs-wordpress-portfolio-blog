@@ -8,7 +8,7 @@ export default function ProjectCard(props) {
             {/* <img className="h-56 rounded-t-lg" alt="article image"
                     src={props.projectImage} /> */}
                              <a href={props.projectUrl} target="_blank" rel="nofollow"
-                    className=""><Img className="h-56 rounded-t-lg" alt="article image"
+                    className=""><Img className="h-56 rounded-t-lg" 
               resolutions={props.projectResolution}
               alt={props.projectTitle}
             /></a>
