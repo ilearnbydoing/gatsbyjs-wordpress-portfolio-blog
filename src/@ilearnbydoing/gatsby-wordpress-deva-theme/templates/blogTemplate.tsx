@@ -65,7 +65,7 @@ const IndexPage: React.FC<IndexPageProps> = ({
 
         {/* Pagination */}
         <Pagination pageContext={pageContext} />
-        <CtaMini />
+        {/* <CtaMini /> */}
       </Layout>
     </>
   );
