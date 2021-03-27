@@ -12,6 +12,7 @@ import pinterestLogo from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images
 import whatsappLogo from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/whatsapp.svg";
 import behanceLogo from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/behance.svg";
 import linkLogo from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/link.svg";
+import Whatsapp from "./Whatsapp";
 
 type FooterProps = {
   footerData: SettingsAndSlugs;
@@ -228,6 +229,7 @@ const Footer: React.FC<FooterProps> = ({ footerData }) => {
           Designed and Developed by WebAnaya.com
         </a>
       </div>
+      <Whatsapp />
     </footer>
   );
 };
