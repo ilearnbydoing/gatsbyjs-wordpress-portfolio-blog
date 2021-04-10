@@ -75,4 +75,4 @@ public
 yarn-error.log
 .netlify/
 
-.env.*
+# .env.*
