@@ -15,7 +15,7 @@ import mailShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/mai
 import pintrestShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/pinterest-share.svg";
 import whatsappShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/whatsapp-share.svg";
 import CopyLink from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/copy-link";
-import NextPrevPost from "./@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/NextPrevPost";
+import NextPrevPost from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/NextPrevPost";
 import { InView } from "react-intersection-observer";
 
 type PostTemplateProps = {
