@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
-import Layout from "../components/Layout";
+import Layout from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/Layout";
 import { graphql, Link, navigate } from "gatsby";
-import CtaMini from "../components/CtaMini";
+import CtaMini from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/CtaMini";
 import Img from "gatsby-image";
-import Disqus from "../components/disqus";
-import FbComments from "../components/fb-comments";
-import "../styles/richtext.css";
-import { PostDescription } from "../models/all-post-description.model";
-import ArticleMeta from "../components/meta/article-meta";
-import facebookShare from "../images/facebook-share.svg";
-import twitterShare from "../images/twitter-share.svg";
-import linkedInShare from "../images/linkedin-share.svg";
-import mailShare from "../images/mail.svg";
-import pintrestShare from "../images/pinterest-share.svg";
-import whatsappShare from "../images/whatsapp-share.svg";
-import CopyLink from "../components/copy-link";
-import NextPrevPost from "./../components/NextPrevPost";
+import Disqus from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/disqus";
+import FbComments from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/fb-comments";
+import "@ilearnbydoing/gatsby-wordpress-deva-theme/src/styles/richtext.css";
+import { PostDescription } from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/models/all-post-description.model";
+import ArticleMeta from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/meta/article-meta";
+import facebookShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/facebook-share.svg";
+import twitterShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/twitter-share.svg";
+import linkedInShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/linkedin-share.svg";
+import mailShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/mail.svg";
+import pintrestShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/pinterest-share.svg";
+import whatsappShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/whatsapp-share.svg";
+import CopyLink from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/copy-link";
+import NextPrevPost from "./@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/NextPrevPost";
 import { InView } from "react-intersection-observer";
 
 type PostTemplateProps = {
