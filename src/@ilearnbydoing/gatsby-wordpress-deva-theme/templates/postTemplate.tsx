@@ -16,6 +16,7 @@ import pintrestShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images
 import whatsappShare from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/images/whatsapp-share.svg";
 import CopyLink from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/copy-link";
 import NextPrevPost from "@ilearnbydoing/gatsby-wordpress-deva-theme/src/components/NextPrevPost";
+import Coffee from "../components/BuyMeACoffee";
 import { InView } from "react-intersection-observer";
 
 type PostTemplateProps = {
@@ -122,6 +123,9 @@ const PostTemplate: React.FC<PostTemplateProps> = ({ data, location }) => {
         dangerouslySetInnerHTML={{ __html: wordpressPost.content }}
         className="richtext max-w-3xl px-4 mx-auto font-serifNormal text-gray-800"
       ></div>
+      <div className="spacer text-center">
+      <Coffee />
+      </div>
 
       {wordpressPost.tags && wordpressPost.tags.length > 0 && (
         <div className="flex items-center max-w-3xl mt-8 mx-auto flex-wrap px-4">
