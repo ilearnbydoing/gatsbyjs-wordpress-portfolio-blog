@@ -2,7 +2,7 @@
 
 # gatsby-wordpress-portfolio-blog
 
-A customize Gatsby starter for creating blogs from headless WordPress CMS with @ilearnbydoing/gatsby-wordpress-deva-theme customized theme originally created by Draftbox.
+A customize Gatsby starter for creating blogs from headless WordPress CMS with [@ilearnbydoing/gatsby-wordpress-deva-theme](https://github.com/ilearnbydoing/gatsby-wordpress-deva-theme) customized theme originally created by Draftbox.
 
 Turn your WordPress blog into a lightning fast static website. This Gatsby theme is a frontend replacement of the WordPress engine featuring the Balsa theme skin and functionality. All content is sourced from a headless WordPress CMS.
 
