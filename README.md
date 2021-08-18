@@ -6,11 +6,9 @@ A customize Gatsby starter for creating blogs from headless WordPress CMS with [
 
 Turn your WordPress blog into a lightning fast static website. This Gatsby theme is a frontend replacement of the WordPress engine featuring the Balsa theme skin and functionality. All content is sourced from a headless WordPress CMS.
 
-## Demo
+## Demo!
 
-Uploading Screen Recording 2021-08-18 at 6.24.25 PM!
-.mov…
-
+https://player.vimeo.com/video/588840402
 
 Play with the [Demo](https://wp-gatsbyjs.netlify.app/) to get a first impression.
 
