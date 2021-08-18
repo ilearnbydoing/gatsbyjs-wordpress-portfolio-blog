@@ -1,16 +1,14 @@
-[![Draftbox](https://res.cloudinary.com/thinkcdnimages/image/upload/v1589291053/Draftbox/draftbox-for-github.svg)](https://draftbox.co)
 
-# gatsby-wordpress-balsa-starter
 
-A Gatsby starter for creating blogs from headless WordPress CMS with Balsa theme from Draftbox.
+# gatsby-wordpress-portfolio-blog
+
+A customize Gatsby starter for creating blogs from headless WordPress CMS with @ilearnbydoing/gatsby-wordpress-deva-theme customized theme originally created by Draftbox.
 
 Turn your WordPress blog into a lightning fast static website. This Gatsby theme is a frontend replacement of the WordPress engine featuring the Balsa theme skin and functionality. All content is sourced from a headless WordPress CMS.
 
-> This starter is being used at [Draftbox](https://draftbox.co). Get lightning fast, secure front-end for your WordPress or Ghost blog, in 5 minutes or less, without coding. For our fellow devs, we also provide code export feature.
-
 ## Demo
 
-Play with the [Demo](https://wp-balsa-preview.draftbox.co) to get a first impression.
+Play with the [Demo](https://wp-gatsbyjs.netlify.app/) to get a first impression.
 
 ## Features
 
@@ -35,7 +33,7 @@ Play with the [Demo](https://wp-balsa-preview.draftbox.co) to get a first impres
 1. Install this starter by running
 
    ```bash
-   gatsby new wp-starter https://github.com/draftbox-co/gatsby-wordpress-balsa-starter
+   gatsby new wp-starter https://github.com/ilearnbydoing/gatsbyjs-wordpress-portfolio-blog/
    ```
 
 2. Change directory
@@ -112,32 +110,32 @@ module.exports = {
     navigation: [
       {
         label: "Home",
-        url: "https://wp-balsa-preview.draftbox.co/",
+        url: "https://wp-gatsbyjs.netlify.app/",
       },
       {
         label: "Contact",
-        url: "https://wp-balsa-preview.draftbox.co/contact",
+        url: "https://wp-gatsbyjs.netlify.app/contact",
       },
     ],
   },
   footer: {
-    copyright: "Built with Draftbox",
+    copyright: "Custimized by DurgeshGupta.com",
     navigation: [
       {
         label: "Home",
-        url: "https://wp-balsa-preview.draftbox.co/",
+        url: "https://wp-gatsbyjs.netlify.app/",
       },
       {
         label: "Sitemap",
-        url: "https://wp-balsa-preview.draftbox.co/sitemap.xml",
+        url: "https://wp-gatsbyjs.netlify.app/sitemap.xml",
       },
       {
         label: "RSS",
-        url: "https://wp-balsa-preview.draftbox.co/rss.xml",
+        url: "https://wp-gatsbyjs.netlify.app/rss.xml",
       },
       {
         label: "Contact",
-        url: "https://wp-balsa-preview.draftbox.co/contact",
+        url: "https://wp-gatsbyjs.netlify.app/contact",
       },
       {
         label: "External Link",
@@ -193,17 +191,10 @@ If your blog is hosted on wordpress.com you will have to add few extra keys for 
 
 After completion of the build process your static site can be found in the `public/` folder. Copy those files over to your webserver.
 
-## Authors
-
-- Arun Priyadarshi ([@Gunnerforlife](https://github.com/Gunnerforlife)) – [Draftbox](https://draftbox.co)
-- Keyur Raval ([@thandaanda](https://github.com/thandaanda)) – [Draftbox](https://draftbox.co)
-- Shyam Lohar ([@shyamlohar](https://github.com/shyamlohar)) – [Draftbox](https://draftbox.co)
-- Tanmay Desai ([@tanmaydesai89](https://github.com/tanmaydesai89)) – [Draftbox](https://draftbox.co)
-
 ## Contributions
 
-PRs are welcome! Consider contributing to this project if you are missing feature that is also useful for others.
+Fork/Clone/Customize/Update it make it your own.
 
 # Copyright & License
 
-Copyright (c) 2020 [Draftbox](https://draftbox.co) - Released under the [MIT license](LICENSE).
+Released under the [MIT license](LICENSE).
