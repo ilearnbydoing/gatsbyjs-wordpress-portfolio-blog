@@ -51,6 +51,8 @@ let gatsbyPlugins = [
 gatsbyPlugins.push(
   "gatsby-plugin-sharp",
   "gatsby-transformer-yaml",
+  "gatsby-plugin-robots-txt",
+
 );
 // file system data
 gatsbyPlugins.push(
@@ -87,6 +89,15 @@ gatsbyPlugins.push({
             ],
     },
 });
+
+gatsbyPlugins.push({
+    resolve: 'gatsby-plugin-robots-txt',
+    options: {
+      host: 'https://www.example.com',
+      sitemap: 'https://www.example.com/sitemap.xml',
+      policy: [{ userAgent: '*', disallow: ['/'] }]
+    }
+})
 
 if (process.env.SEGMENT_KEY) {
   gatsbyPlugins.push({
