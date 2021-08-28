@@ -93,8 +93,8 @@ gatsbyPlugins.push({
 gatsbyPlugins.push({
     resolve: 'gatsby-plugin-robots-txt',
     options: {
-      host: 'https://www.example.com',
-      sitemap: 'https://www.example.com/sitemap.xml',
+      host: 'https://wp-gatsbyjs.netlify.app',
+      sitemap: 'https://wp-gatsbyjs.netlify.app/sitemap.xml',
       policy: [{ userAgent: '*', disallow: ['/'] }]
     }
 })
